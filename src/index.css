@@ -1,0 +1,74 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(#74ebd5, #acb6e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .input-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .weather-details {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  /* Toggle Button */
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Light Mode */
+  .container {
+    min-height: 100vh;
+    background: linear-gradient(#74ebd5, #acb6e5);
+    color: #000;
+  }
+  
+  /* Dark Mode */
+  .container.dark {
+    background: linear-gradient(#141e30, #243b55);
+    color: #fff;
+  }
+  
+  /* Input box */
+  .input-container,
+  .weather-details {
+    background: white;
+    color: black;
+  }
+  
+  .container.dark .input-container,
+  .container.dark .weather-details {
+    background: #1f2933;
+    color: white;
+  }
+  
+  .container.dark input {
+    background: #111;
+    color: white;
+  }
+  * {
+    transition: all 0.3s ease;
+  }
+  
