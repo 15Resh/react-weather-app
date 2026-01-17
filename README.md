@@ -1,71 +1,91 @@
-# Getting Started with Create React App
+# 🌦 React Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive **Weather Application** built using **React.js** that allows users to search for real-time weather information by city. The app includes modern UI features such as **Dark Mode**, error handling, and dynamic Google Maps integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔍 Search weather by city name
+- ⌨️ Search using **Enter key** or **Search icon**
+- 🌡 Real-time temperature, humidity & wind speed
+- 🌙 Light / Dark Mode toggle
+- 🗺 Dynamic Google Maps location view
+- ⏳ Loading indicator while fetching data
+- ❌ Error handling for invalid city names
+- 📱 Responsive and clean UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **Frontend:** React.js, JavaScript, HTML5, CSS3
+- **API:** SheCodes Weather API
+- **Version Control:** Git & GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation & Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/15Resh/react-weather-app.git
+Go to project folder:
 
-### `npm run eject`
+cd react-weather-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Start the app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Open in browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+http://localhost:3000
 
-### Analyzing the Bundle Size
+🌐 API Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+SheCodes Weather API
 
-### Making a Progressive Web App
+Fetches real-time weather data based on city name.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📸 Screenshots
 
-### Advanced Configuration
+(Add screenshots here if needed)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✨ Future Enhancements
 
-### Deployment
+5-Day Weather Forecast
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Save Dark Mode preference using localStorage
 
-### `npm run build` fails to minify
+Auto-detect user location
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# react-weather-app" 
+Convert to PWA
+
+👩‍💻 Author
+
+Resh
+GitHub: https://github.com/15Resh
+
+⭐ If you like this project, don’t forget to star the repository!
+
+
+---
+
+## ✅ NEXT STEP (Very Important)
+After adding README:
+
+```bash
+git add README.md
+git commit -m "Added professional README"
+git push
